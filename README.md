@@ -1,6 +1,6 @@
 ---
 
-# 📘 Generative AI–Powered Product Recommendation System
+# 📦 Generative AI-Powered Product Recommendation System (RAG + LoRA)
 
 ### A Retrieval-Augmented Generation (RAG) Framework with LoRA-Fine-Tuned Large Language Models
 
