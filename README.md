@@ -46,6 +46,19 @@ The primary objectives of this project are:
 
 ---
 
+💡 Features
+
+Domain-Adaptive LLM: LoRA fine-tuning for electronics and meta reviews.
+
+Efficient Generation: 4-bit quantized model reduces VRAM usage, allowing GPU-efficient deployment.
+
+Explainable Recommendations: Generates human-readable suggestions referencing retrieved reviews.
+
+Analytics & KPIs: Charts showing top products, category-level ratings, and retrieval reliability.
+
+Future-Ready: Easily extendable for other domains, additional datasets, or fine-tuning.
+
+---
 ## 3. Dataset Description
 
 ### 3.1 Data Sources
@@ -207,6 +220,24 @@ Compared to traditional recommender systems, the proposed approach offers:
 * Higher transparency
 * Better user trust
 * Natural language interaction
+
+---
+
+🛠️ Tech Stack
+
+Python 3.10+
+
+Transformers & Hugging Face
+
+PEFT (LoRA)
+
+FAISS (dense vector search)
+
+PyTorch & bitsandbytes
+
+Matplotlib & Seaborn for analytics
+
+Gradio / Streamlit for UI deployment
 
 ---
 
